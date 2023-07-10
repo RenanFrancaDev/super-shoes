@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="container">
       <div className="logo">
-        <img src="/static/images/super-shoes.png" alt="Super Shoes Logo" />
+        <img src="./static/images/super-shoes.png" alt="Super Shoes Logo" />
       </div>
       <div className="carousel" ref={carousel}>
         {data.map((item) => {
@@ -48,10 +48,10 @@ function App() {
       </div>
       <div className="buttons">
         <button onClick={handleLeftClick}>
-          <img src="/static/images/216151_right_chevron_icon.png" alt="Scroll Left" />
+          <img src="./static/images/216151_right_chevron_icon.png" alt="Scroll Left" />
         </button>
         <button onClick={handleRightClick}>
-          <img src="/static/images/216151_right_chevron_icon.png" alt="Scroll Right" />
+          <img src="./static/images/216151_right_chevron_icon.png" alt="Scroll Right" />
         </button>
       </div>
     </div>
